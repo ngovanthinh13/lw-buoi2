@@ -1,3 +1,10 @@
+* {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
 .title-fixed {
   position: fixed;
   background: black;
@@ -41,13 +48,14 @@ img {
 }
 
 .title-big {
-  font-size: 22px;
+  font-size: 40px;
   text-align: center;
   color: white;
+  line-height: 2;
 }
 
 .title-small {
-  font-size: 16px;
+  font-size: 26px;
   text-align: center;
   color: white;
 }
